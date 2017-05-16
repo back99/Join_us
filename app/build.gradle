@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "kr.co.company.join_us"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile project(':library-1.0.19')
+    compile 'com.github.nkzawa:socket.io-client:0.3.0'
+    compile 'net.gotev:uploadservice:2.1'
+    compile 'com.soundcloud.android:android-crop:1.0.1@aar'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'cz.msebera.android:httpclient:4.4.1.1'
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'com.google.android.gms:play-services:10.0.0'
+    compile 'com.google.android.gms:play-services:10.0.0'
+    compile 'com.android.support:multidex:1.0.1'
+}

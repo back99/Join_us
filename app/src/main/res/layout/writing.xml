@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#333333"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:weightSum="1">
+
+    <TextView
+        android:text=""
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/textView19"
+        android:layout_weight="0" />
+    <TextView
+        android:text="게시글"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#FF87CEFA"
+        android:textStyle="bold"
+        android:id="@+id/textView9" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/textView10" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:background="@drawable/border"
+        android:hint="제목"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:gravity="top"
+        android:ems="10"
+        android:id="@+id/editTexttitle" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/textView11" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editTextcontent"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:gravity="top"
+        android:hint="내용"
+        android:textSize="13dp"
+        android:layout_weight="0.3"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dip"
+            android:text="확인"
+            android:textColor="#ffffff"
+            android:id="@+id/button7"
+            android:background="#5D5D5D"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.3" />
+
+        <TextView
+            android:text=""
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:id="@+id/textView20"
+            android:layout_weight="0" />
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dip"
+            android:text="취소"
+            android:textColor="#ffffff"
+            android:id="@+id/button6"
+            android:background="#5D5D5D"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.3" />
+
+    </LinearLayout>
+</LinearLayout>

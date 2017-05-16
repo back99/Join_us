@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333">
+
+    <TextView
+        android:text=""
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:id="@+id/textView23"
+        android:layout_weight="0" />
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text=""
+            android:gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/kind"
+            android:textColor="#FF87CEFA"
+            android:textStyle="bold"/>
+
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:text=""
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/textView30"
+        android:layout_weight="0" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/mylist" />
+
+        <TextView
+            android:id="@+id/empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="empty"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="30dip"
+            android:text="글쓰기"
+            android:id="@+id/button4"
+            android:textColor="#ffffff"
+            android:background="#5D5D5D"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.3" />
+
+        <TextView
+            android:text=""
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:id="@+id/textView12"
+            android:layout_weight="0" />
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="30dip"
+            android:text="취소"
+            android:id="@+id/button5"
+            android:textColor="#ffffff"
+            android:background="#5D5D5D"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.3" />
+    </LinearLayout>
+</LinearLayout>

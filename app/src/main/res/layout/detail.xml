@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pan_num"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:textSize="12dp"
+        android:hint="aaaa"
+        android:layout_weight="0.3" />
+
+    <TextView
+        android:text="운동종목"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/pan_sportmenu"
+        android:textSize="14dp"
+        android:textColor="#FF87CEFA"
+        android:layout_weight="0.3" />
+
+    <TextView
+        android:text=""
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/textView34"
+        android:layout_weight="0" />
+
+    <TextView
+        android:text="제목 들어올 자리"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/pan_title"
+        android:textSize="17dp"
+        android:textColor="#FFFFC0CB"
+        android:layout_weight="0.3" />
+    <TextView
+        android:text=""
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/textView35"
+        android:layout_weight="0" />
+
+    <TextView
+        android:text="시간"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/pan_date"
+        android:textSize="11dp"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:text=""
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/textView36"
+        android:layout_weight="0" />
+
+    <TextView
+        android:text=" ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/pan_id"
+        android:textSize="11dp"
+        android:textColor="#FFFFE4B5" />
+
+</LinearLayout>

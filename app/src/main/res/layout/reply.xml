@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20dp"
+    android:background="#333333"
+    android:weightSum="1">
+
+    <TextView
+        android:text=""
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/textView17"
+        android:layout_weight="0" />
+
+    <TextView
+        android:text="댓글 쓰기"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#FF87CEFA"
+        android:textStyle="bold"
+        android:id="@+id/textView9" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/textView10" />
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="311dp"
+            android:inputType="textPersonName"
+            android:background="@drawable/border"
+            android:hint="입력"
+            android:textSize="13dp"
+            android:padding="10dp"
+            android:gravity="top"
+            android:ems="10"
+            android:id="@+id/reply_content"
+            android:layout_weight="0.3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="30dip"
+            android:text="댓글 등록"
+            android:textColor="#ffffff"
+            android:background="#5D5D5D"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:id="@+id/buttonrply"
+            android:layout_weight="0.3" />
+
+        <TextView
+            android:text=""
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:id="@+id/textView18"
+            android:layout_weight="0" />
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="30dip"
+            android:text="뒤로가기"
+            android:textColor="#ffffff"
+            android:background="#5D5D5D"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:id="@+id/button10"
+            android:layout_weight="0.3" />
+    </LinearLayout>
+
+</LinearLayout>
